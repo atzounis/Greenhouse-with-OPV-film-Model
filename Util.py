@@ -190,12 +190,12 @@ def readData(fileName, relativePath = "", skip_header=0, d=','):
     '''
     # read a file in "data" folder
     if relativePath == "":
-        filePath = os.path.dirname(__file__).replace('/', os.sep) + '\\' + 'data\\' + fileName
+        filePath = os.path.dirname(__file__).replace('/', os.sep) + '/' + 'data/' + fileName
         print("filePath:{}".format(filePath))
         print("os.path.dirname(__file__):{}".format(os.path.dirname(__file__)))
 
     else:
-        filePath = os.path.dirname(__file__).replace('/', os.sep) + '\\' + 'data\\' + relativePath + '\\' + fileName
+        filePath = os.path.dirname(__file__).replace('/', os.sep) + '/' + 'data/' + relativePath + '/' + fileName
         # print "filePath:{}".format(filePath)
 
     if skip_header == 0:

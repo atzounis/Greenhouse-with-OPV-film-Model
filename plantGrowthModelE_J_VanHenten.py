@@ -28,7 +28,8 @@ import Util as util
 import datetime
 import Lettuce
 import PlantGrowthModelE_J_VanHentenConstant as VanHentenConstant
-import PlantGrowthPenaltyByPhotoinhibition as Photoinhibition
+# File missing - Photoinhibition not used anywhere in the code.
+# import PlantGrowthPenaltyByPhotoinhibition as Photoinhibition 
 
 
 def calcUnitDailyFreshWeightE_J_VanHenten1994(simulatorClass):

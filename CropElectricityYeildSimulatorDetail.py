@@ -18,7 +18,7 @@ import CropElectricityYeildSimulatorConstant as constant
 import Util
 import OPVFilm
 import Lettuce
-import PlantGrowthModelE_J_VanHenten
+import plantGrowthModelE_J_VanHenten
 import PlantGrowthModelS_Pearson1997
 import SolarIrradianceMultiSpanRoof
 from dateutil.relativedelta import *
